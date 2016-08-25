@@ -3,9 +3,6 @@ CP1404/CP5632 Practical
 Starter code for cumulative total income program
 """
 
-'''
-This is a rebuild to test
-'''
 
 def main():
     incomes = []
@@ -14,10 +11,11 @@ def main():
     for month in range(1, total_months + 1):
         income = float(input("Enter income for month " + str(month) + ": "))
         incomes.append(income)
-    print_monthly_report(total_months, incomes)
+
+    print_monthly_report(incomes, total_months)
 
 
-def print_monthly_report(total_months, incomes):
+def print_monthly_report(incomes, total_months):
     print("\nIncome Report\n-------------")
     total = 0
     for month in range(1, total_months + 1):

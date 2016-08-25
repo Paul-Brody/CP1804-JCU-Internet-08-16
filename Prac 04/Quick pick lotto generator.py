@@ -2,8 +2,8 @@
 This program generates 6 random numbers for a quickpic lotto
 '''
 
-
 def main():
+    import random
     lotto_group = []
 
     how_many_number()

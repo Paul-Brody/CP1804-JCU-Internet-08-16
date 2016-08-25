@@ -3,6 +3,9 @@ CP1404/CP5632 Practical
 Starter code for cumulative total income program
 """
 
+'''
+This is a rebuild to test
+'''
 
 def main():
     incomes = []

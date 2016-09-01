@@ -9,6 +9,7 @@ state_names = {"QLD": "Queensland", "NSW": "New South Wales", "VIC": "Victoria",
 #     short_state = input(short_state)
 #
 #
+
 #
 #
 #
@@ -23,13 +24,13 @@ state_names = {"QLD": "Queensland", "NSW": "New South Wales", "VIC": "Victoria",
 
 
 # state = input("State: ")
-# ull_state_name = input("Full state Name: ")
+# full_state_name = input("Full state Name: ")
 
 # vstate_names
 
 # for name, state in state_names.items():
 #    print("{}  is  {1:12}".format(name, state) )
-# {0:2d} {1:3d} {2:4d}
+
 """
 CP1404/CP5632 Practical
 State names in a dictionary
